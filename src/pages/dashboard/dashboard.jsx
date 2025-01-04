@@ -1,4 +1,5 @@
 import Menu from "../../components/menu/menu.jsx";
+import Busca from "../../components/busca/busca.jsx";
 
 function Dashboard() {
     return <>
@@ -9,7 +10,7 @@ function Dashboard() {
                 </div>
 
                 <div className="col py-3 me-3">
-                    <input type="text" name="Procurar" id="" />
+                    <Busca/>
                     <h1>Dashboard...</h1>
                 </div>
             </div>
